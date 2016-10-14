@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ios7-bubble</title>
+  <link rel="stylesheet" href="../../dist/ios7-bubble.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .clfix:before,
+    .clfix:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+    }
+
+    .clfix:after {
+     clear: both;
+    }
+
+
+    .chat-ui {
+      margin: 10px auto;
+      padding: 30px;
+    }
+    .blank-1{
+      height:1px;
+    }
+    .tl{
+      text-align: left;
+    }
+    .tr{
+      text-align: right;
+    }
+    h1{
+      margin:0 auto 20px;
+      text-align: center;
+      padding:10px 0;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="clfix chat-ui">
+    <h1>IOS7-bubble</h1>
+    <div class="tl">
+      <div class="ios7-bubble" data-bubble-type="left">
+        在吗？
+      </div>
+    </div>
+    <div class="tr">
+      <div class="ios7-bubble" data-bubble-type="right">
+        嗯？
+      </div>
+    </div>
+    <div class="tl">
+      <div class="ios7-bubble" data-bubble-type="left">
+        你好，我是新来的。
+      </div>
+    </div>
+    <div class="tr">
+      <div class="ios7-bubble" data-bubble-type="right">
+        呵呵哒
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

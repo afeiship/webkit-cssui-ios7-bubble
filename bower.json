@@ -1,0 +1,29 @@
+{
+  "name": "webkit-cssui-ios7-bubble",
+  "description": "Webkit css ui module for ios7 style bubble.",
+  "main": [
+    "dist/ios7-bubble.css",
+    "dist/ios7-bubble.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "ios7-bubble"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
