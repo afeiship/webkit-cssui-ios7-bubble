@@ -1,5 +1,5 @@
-# webkit-cssui-ios7-bubble
-> Webkit css ui module for ios7 style bubble.
+# webkit-sassui-ios7-bubble
+> Webkit sass ui module for ios7 style bubble.
 
 ## usage:
 ```html
