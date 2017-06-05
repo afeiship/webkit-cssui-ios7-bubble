@@ -16,6 +16,7 @@ $right-text-color:#000;
   padding: $padding;
   border-radius: $border-radius;
   display: inline-block;
+  max-width:60%;
 
   &:before,
   &:after{
@@ -24,6 +25,7 @@ $right-text-color:#000;
     height: 20px;
     bottom: -2px;
   }
+
   &:before {
     transform: translate(0, -2px);
   }
