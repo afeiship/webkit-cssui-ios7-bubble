@@ -1,20 +1,22 @@
-/*ios7-bubble Start*/
-$body-bg-color: #fff;
-$padding: 10px 20px;
-$border-radius:25px;
+/*webkit-sassui-ios7-bubble Start*/
+//body :
+$webkit-sassui-ios7-bubble-bg-color:#fff !default;
+$webkit-sassui-ios7-bubble-padding:10px 20px !default;
+$webkit-sassui-ios7-bubble-border-radius:25px !default;
 
+//primary:
+$webkit-sassui-ios7-bubble-primary-bg-color:#0B93F6 !default;
+$webkit-sassui-ios7-bubble-primary-text-color:#FFF !default;
 
-$left-bg-color: #0B93F6;
-$left-text-color:#fff;
-
-$right-bg-color: #E5E5EA;
-$right-text-color:#000;
+//secondary:
+$webkit-sassui-ios7-bubble-secondary-bg-color:#E5E5EA !default;
+$webkit-sassui-ios7-bubble-secondary-text-color:#000 !default;
 
 
 .webkit-sassui-ios7-bubble {
   position: relative;
-  padding: $padding;
-  border-radius: $border-radius;
+  padding: $webkit-sassui-ios7-bubble-padding;
+  border-radius: $webkit-sassui-ios7-bubble-border-radius;
   display: inline-block;
   max-width:60%;
 
@@ -32,21 +34,19 @@ $right-text-color:#000;
 
   &:after {
     width: 26px;
-    background: $body-bg-color;
+    background: $webkit-sassui-ios7-bubble-bg-color;
     transform: translate(-30px, -2px);
   }
 
 
-  &[data-bubble-type='left'] {
-    position: relative;
-    padding: $padding;
-    background: $left-bg-color;
-    color: $left-text-color;
+  &[data-role=primary] {
+    background: $webkit-sassui-ios7-bubble-primary-bg-color;
+    color: $webkit-sassui-ios7-bubble-primary-text-color;
 
     &:before {
       left: -7px;
       z-index: 2;
-      border-left: 20px solid $left-bg-color;
+      border-left: 20px solid $webkit-sassui-ios7-bubble-primary-bg-color;
       border-bottom-right-radius: 16px 14px;
     }
 
@@ -58,13 +58,13 @@ $right-text-color:#000;
   }
 
 
-  &[data-bubble-type='right'] {
-    color: $right-text-color;
-    background: $right-bg-color;
+  &[data-role=secondary] {
+    color: $webkit-sassui-ios7-bubble-secondary-text-color;
+    background: $webkit-sassui-ios7-bubble-secondary-bg-color;
     &:before {
       right: -7px;
       z-index: -1;
-      border-right: 20px solid $right-bg-color;
+      border-right: 20px solid $webkit-sassui-ios7-bubble-secondary-bg-color;
       border-bottom-left-radius: 16px 14px;
     }
 
@@ -75,4 +75,4 @@ $right-text-color:#000;
     }
   }
 }
-/*ios7-bubble End*/
+/*webkit-sassui-ios7-bubble End*/

@@ -1,4 +1,4 @@
-/*ios7-bubble Start*/
+/*webkit-sassui-ios7-bubble Start*/
 .webkit-sassui-ios7-bubble {
   position: relative;
   padding: 10px 20px;
@@ -24,42 +24,40 @@
   transform: translate(-30px, -2px);
 }
 
-.webkit-sassui-ios7-bubble[data-bubble-type='left'] {
-  position: relative;
-  padding: 10px 20px;
+.webkit-sassui-ios7-bubble[data-role=primary] {
   background: #0B93F6;
-  color: #fff;
+  color: #FFF;
 }
 
-.webkit-sassui-ios7-bubble[data-bubble-type='left']:before {
+.webkit-sassui-ios7-bubble[data-role=primary]:before {
   left: -7px;
   z-index: 2;
   border-left: 20px solid #0B93F6;
   border-bottom-right-radius: 16px 14px;
 }
 
-.webkit-sassui-ios7-bubble[data-bubble-type='left']:after {
+.webkit-sassui-ios7-bubble[data-role=primary]:after {
   z-index: 3;
   left: 4px;
   border-bottom-right-radius: 10px;
 }
 
-.webkit-sassui-ios7-bubble[data-bubble-type='right'] {
+.webkit-sassui-ios7-bubble[data-role=secondary] {
   color: #000;
   background: #E5E5EA;
 }
 
-.webkit-sassui-ios7-bubble[data-bubble-type='right']:before {
+.webkit-sassui-ios7-bubble[data-role=secondary]:before {
   right: -7px;
   z-index: -1;
   border-right: 20px solid #E5E5EA;
   border-bottom-left-radius: 16px 14px;
 }
 
-.webkit-sassui-ios7-bubble[data-bubble-type='right']:after {
+.webkit-sassui-ios7-bubble[data-role=secondary]:after {
   z-index: 1;
   right: -56px;
   border-bottom-left-radius: 10px;
 }
 
-/*ios7-bubble End*/
+/*webkit-sassui-ios7-bubble End*/
